@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding-top: 25px;
+}
+
+.navbar a{
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 2px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.navbar a:hover{
+	border-color: gray;
+}
+
+.header-box{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+	justify-content: center;
+}
+
+.header-left{
+	width: 50%;
+}
+
+.header-left img{
+	width: 70%;
+	border-radius: 10px;
+}
+
+.header-right{
+	width: 50%;
+}
+@media screen and (max-width: 1000px){
+			
+	.header-box{
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.header-right h1{
+		display: flex;
+		justify-content: center;
+			align-items: center;
+			margin-botton: 10px;
+	}
+	.header-left{
+			display: flex;
+		justify-content: center;
+			align-items: center;
+	}
+	.container{ width:90%;
+	}
+
+	.p-row{
+		flex-direction:column;
+	}
+
+
+	
+
+
+}
+
+.p-row{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 50px;
+		gap: 10px;
+	}
+	.p-col{
+		width: 400px;
+		border-radius: 5px;
+		text-align: center;
+		text-decoration: none;
+		outline: 1px solid gray;
+
+	}
+	.p-col img{
+		width: 100%;
+	}
+	.footer{
+		background-color: #222;
+		color: #fff;
+		padding: 40px 20px;
+		text-align: center;
+		font-family: sans-sarif;
+		justify-content: space-around;
+		display: flex;
+	}
+	.footer-bnt{
+		color: width;
+		text-decoration: none;
+		text-align: center;
+		font-family: "Robor, sans-sarif";
+		flex: 1;
+		padding: 5px 0;
+	}
+	.footer-bnt img{
+			width: 24px;
+	border-radius: 50%;
+	height: 24px;
+	display: block;
+	margin: 0 auto 4px auto;
+	filter: invert(100%);
+	}
+	.footer-bnt span {
+		font-size; 12px;
+		letter-spacing: 1PX;
+	}
+	.main{
+    padding-top: 50px;
+}
+.css{
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid red;
+    transition: all 1s;
+}
+.css:hover{
+    transform: scale(1.5);
+    background: rgb(23, 233, 187);
+    color: rgb(250, 15, 250);
+    display: inline-block;
+}
+
+
+.css:active{
+    background: red;
+    color: rgb(131, 233, 14);
+}
